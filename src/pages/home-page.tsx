@@ -1,7 +1,18 @@
+import backgroundVideo from "../assets/videos/background.mp4";
+import Header from "../components/Header";
 export default function HomePage() {
   return (
-    <main>
-      <h1>Home Page</h1>
-    </main>
+    <>
+      <Header />
+      <main>
+        <video
+          src={backgroundVideo}
+          autoPlay
+          loop
+          muted
+          style={{ width: "100%", height: "auto" }}
+        ></video>
+      </main>
+    </>
   );
 }
