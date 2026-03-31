@@ -3,4 +3,52 @@ header {
   align-items: center;
   justify-content: space-evenly;
   padding: 1rem;
+  transition: all 0.3s ease;
+  background: rgba(0, 0, 0, 0.2);
+}
+
+header:hover {
+  background: white;
+}
+
+img {
+  transition: filter 0.3s ease;
+  filter: brightness(0) invert(1);
+}
+
+header:hover img {
+  filter: brightness(0) invert(0);
+}
+
+button {
+  background-color: transparent;
+  border: none;
+  color: white;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+header:hover button {
+  color: gray;
+}
+
+header :hover button {
+  color: black;
+}
+
+header.other-header {
+  background: rgba(255, 255, 255, 1);
+}
+
+header.other-header img {
+  filter: none;
+}
+
+header.other-header button {
+  color: black;
+}
+
+header.other-header button:hover {
+  color: gray;
 }

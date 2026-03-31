@@ -1,24 +1,25 @@
 import { Link } from "react-router";
 import logo from "../assets/images/logo.png";
 import "./Header.css";
+import HeaderButton from "./HeaderButton";
 
-export default function Header() {
+export default function Header({ pageClass = "" }: { pageClass?: string }) {
   return (
-    <header>
+    <header className={pageClass}>
       <Link to="/">
-        <button>Home</button>
+        <HeaderButton title="Home" />
       </Link>
       <Link to="/projects">
-        <button>Projects</button>
+        <HeaderButton title="Projects" />
       </Link>
       <Link to="/">
         <img src={logo} alt="Goblin Cinematics Logo" />
       </Link>
       <Link to="/contact">
-        <button>Contact</button>
+        <HeaderButton title="Contact" />
       </Link>
       <Link to="/about">
-        <button>About</button>
+        <HeaderButton title="About" />
       </Link>
     </header>
   );
