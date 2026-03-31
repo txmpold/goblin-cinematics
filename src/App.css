@@ -4,7 +4,7 @@ body {
   padding: 0;
 }
 
-video {
+.background-video {
   position: fixed;
   top: 0;
   left: 0;

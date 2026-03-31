@@ -3,10 +3,11 @@ import Header from "../components/Header";
 export default function HomePage() {
   return (
     <>
-      <Header />
+      <Header pageClass="home-header" />
       <main>
         <video
           src={backgroundVideo}
+          className="background-video"
           autoPlay
           loop
           muted
