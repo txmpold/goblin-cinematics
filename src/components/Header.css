@@ -4,11 +4,7 @@ header {
   justify-content: space-evenly;
   padding: 1rem 0rem;
   transition: all 0.3s ease;
-  background: transparent;
-}
-
-header img {
-  height: 3rem;
+  background: var(--background-color);
 }
 
 .header-button {
