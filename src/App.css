@@ -9,7 +9,7 @@
 
 body {
   margin: 0;
-  font-family: "Instrument Serif", Arial, Helvetica, sans-serif;
+  font-family: "Instrument Serif", Helvetica, sans-serif;
   padding: 0rem 2rem;
   color: black;
   background: var(--background-color);
