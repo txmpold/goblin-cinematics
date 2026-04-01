@@ -1,0 +1,60 @@
+.home-section {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  gap: 2rem;
+  height: 50%;
+}
+
+.background-video {
+  flex: 2;
+  aspect-ratio: 2 / 1;
+  object-fit: cover;
+  border-radius: 25px;
+}
+
+.home-content {
+  flex: 1;
+  padding: 2rem;
+  background: var(--custom-orange);
+  border-radius: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: left;
+  text-align: left;
+}
+
+.home-button {
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+  background: transparent;
+  color: black;
+  border: none;
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+.home-button::after {
+  content: "";
+  position: absolute;
+  width: 95%;
+  height: 3px;
+  bottom: 0;
+  left: 50%;
+  background: currentColor;
+  transition: all 0.2s ease;
+  transform: translateX(-50%) scaleX(0);
+  transform-origin: center;
+}
+
+.home-button:hover::after {
+  transform: translateX(-50%) scaleX(1);
+}
+
+.slogan {
+  margin: 0;
+  padding-bottom: 5rem;
+  font-size: 8rem;
+}

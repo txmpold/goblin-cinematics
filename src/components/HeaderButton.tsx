@@ -7,5 +7,5 @@ interface HeaderButtonProps {
 export default function HeaderButton(
   props: PropsWithChildren<HeaderButtonProps>,
 ) {
-  return <button>{props.title}</button>;
+  return <button className="header-button">{props.title}</button>;
 }
