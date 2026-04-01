@@ -1,5 +1,6 @@
 :root {
   --background-color: #e7e7dd;
+  --text-color: #eadab1;
   --secondary-color: #2a382b;
   --custom-orange: #d7573c;
   --custom-blue: #787ea1;
@@ -20,6 +21,6 @@ footer {
   margin-bottom: 2rem;
   padding: 7rem 0;
   background: var(--secondary-color);
-  color: white;
+  color: var(--text-color);
   border-radius: 25px;
 }
