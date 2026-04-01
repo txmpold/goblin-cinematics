@@ -23,7 +23,7 @@ export default function ProjectsPage() {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                Watch on Instagram
+                WATCH ON INSTARGRAM
               </a>
             </div>
             <video className="project-video" src={p1} controls></video>
@@ -44,7 +44,7 @@ export default function ProjectsPage() {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                Watch on Instagram
+                WATCH ON INSTAGRAM
               </a>
             </div>
           </section>
@@ -63,7 +63,7 @@ export default function ProjectsPage() {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                Watch on Instagram
+                WATCH ON INSTAGRAM
               </a>
             </div>
             <video className="project-video" src={p3} controls></video>
