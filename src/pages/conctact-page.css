@@ -1,0 +1,54 @@
+.contact-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  padding: 2rem;
+}
+
+fieldset {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #2a2a2a;
+  width: 35rem;
+  gap: 2rem;
+  padding: 4rem;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+input {
+  width: 25rem;
+  padding: 0.5rem;
+  font-size: 16px;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+.message-input {
+  width: 25rem;
+  height: 100px;
+  resize: none;
+  font-size: 16px;
+  font-family: inherit;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 0.5rem;
+}
+
+.submit-button {
+  padding: 0.5rem 1rem;
+  font-size: 16px;
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: fit-content;
+}
+.submit-button:hover {
+  background-color: #333;
+}
