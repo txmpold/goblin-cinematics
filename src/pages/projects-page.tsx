@@ -7,7 +7,7 @@ import "./projects-page.css";
 export default function ProjectsPage() {
   return (
     <>
-      <Header pageClass="other-header" />
+      <Header />
       <main>
         <div className="projects-content">
           <section className="p1-section">
