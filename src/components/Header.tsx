@@ -3,23 +3,23 @@ import logo from "../assets/images/logo.png";
 import "./Header.css";
 import HeaderButton from "./HeaderButton";
 
-export default function Header({ pageClass = "" }: { pageClass?: string }) {
+export default function Header() {
   return (
-    <header className={pageClass}>
+    <header>
       <Link to="/">
-        <HeaderButton title="Home" />
+        <HeaderButton title="HOME" />
       </Link>
       <Link to="/projects">
-        <HeaderButton title="Projects" />
+        <HeaderButton title="PROJECTS" />
       </Link>
       <Link to="/">
         <img src={logo} alt="Goblin Cinematics Logo" />
       </Link>
       <Link to="/contact">
-        <HeaderButton title="Contact" />
+        <HeaderButton title="CONTACT" />
       </Link>
       <Link to="/about">
-        <HeaderButton title="About" />
+        <HeaderButton title="ABOUT" />
       </Link>
     </header>
   );
