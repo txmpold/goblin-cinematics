@@ -1,9 +1,10 @@
-.about-content {
+.about-section {
   display: flex;
   justify-content: center;
   align-items: stretch;
   border-radius: 25px;
   gap: 2rem;
+  margin-bottom: 2rem;
 }
 
 .about-text-div {

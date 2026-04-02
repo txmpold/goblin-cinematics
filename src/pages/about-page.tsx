@@ -7,7 +7,7 @@ export default function AboutPage() {
     <>
       <Header />
       <main>
-        <section className="about-content">
+        <section className="about-section">
           <div className="about-text-div">
             <h1>About Us</h1>
             <p>

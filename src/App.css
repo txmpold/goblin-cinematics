@@ -14,13 +14,3 @@ body {
   color: black;
   background: var(--background-color);
 }
-
-footer {
-  text-align: center;
-  margin-top: 2rem;
-  margin-bottom: 2rem;
-  padding: 7rem 0;
-  background: var(--secondary-color);
-  color: var(--text-color);
-  border-radius: 25px;
-}
