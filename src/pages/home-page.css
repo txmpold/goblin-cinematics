@@ -26,18 +26,17 @@
   text-align: left;
 }
 
-.home-button {
+.home-content-button {
   position: relative;
   overflow: hidden;
   cursor: pointer;
   background: transparent;
-  color: black;
   border: none;
   font-size: 2rem;
   cursor: pointer;
 }
 
-.home-button::after {
+.home-content-button::after {
   content: "";
   position: absolute;
   width: 95%;
@@ -50,12 +49,13 @@
   transform-origin: center;
 }
 
-.home-button:hover::after {
+.home-content-button:hover::after {
   transform: translateX(-50%) scaleX(1);
 }
 
 .slogan {
   font-size: 8rem;
+  font-style: italic;
   margin: 0;
   padding-bottom: 5rem;
 }
