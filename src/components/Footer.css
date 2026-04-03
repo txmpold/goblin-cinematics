@@ -1,8 +1,15 @@
 footer {
   text-align: center;
+  font-size: 20px;
   margin-bottom: 2rem;
-  padding: 7rem 0;
-  background: var(--secondary-color);
+  padding: 2rem 0;
+  background: var(--custom-green);
   color: var(--text-color);
   border-radius: 25px;
+}
+
+footer img {
+  width: 7rem;
+  height: auto;
+  filter: invert(1);
 }
