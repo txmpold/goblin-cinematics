@@ -3,7 +3,7 @@ import p1 from "../assets/videos/jacks-burger.mp4";
 import p3 from "../assets/videos/qc.mp4";
 import Footer from "../components/Footer";
 import Header from "../components/Header";
-import ProjectSection from "../components/Project-section";
+import ProjectSection from "../components/ProjectSection";
 import "./projects-page.css";
 
 export default function ProjectsPage() {
