@@ -35,8 +35,9 @@
 
 .about-img-div img {
   width: 100%;
-  max-width: 1000px;
+  max-width: none;
   height: auto;
+  object-fit: cover;
   border-radius: 25px;
 }
 
