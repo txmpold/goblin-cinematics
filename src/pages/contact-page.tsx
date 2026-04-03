@@ -1,42 +1,34 @@
-import { zodResolver } from "@hookform/resolvers/zod";
-import { useForm } from "react-hook-form";
+import contactImg from "../assets/images/contact-img.jpg";
+import Footer from "../components/Footer";
+import Form from "../components/Form";
 import Header from "../components/Header";
-import { FormSchema } from "../data/form";
 import "./conctact-page.css";
 
 export default function ContactPage() {
-  const { register, handleSubmit, formState } = useForm({
-    resolver: zodResolver(FormSchema),
-  });
-
   return (
     <>
       <Header />
       <main>
         <section className="contact-section">
-          <h1>Contact us today!</h1>
-          <form onSubmit={handleSubmit((data) => console.log(data))}>
-            <fieldset>
-              <input {...register("name")} type="text" placeholder="Name" />
-              {formState.errors.name && <p>{formState.errors.name.message}</p>}
-              <input {...register("email")} type="text" placeholder="Email" />
-              <input
-                {...register("subject")}
-                type="text"
-                placeholder="Subject"
-              />
-              <textarea
-                className="message-input"
-                {...register("message")}
-                placeholder="Message"
-              />
-              <button className="submit-button" type="submit">
-                Send
-              </button>
-            </fieldset>
-          </form>
+          <div className="contact-img-div slide-up">
+            <img src={contactImg} alt="Contact" />
+          </div>
+          <div className="contact-info slide-up">
+            <div className="contact-text">
+              <h2>Our info</h2>
+              <p>+46 73 098 5634</p>
+              <p>info@goblin-cinematics.com</p>
+              <p>
+                Goblin cinematics <br /> 144 33 <br />
+                Stockholm, Sweden
+              </p>
+              <p>Or contact us here →</p>
+            </div>
+          </div>
+          <Form />
         </section>
       </main>
+      <Footer />
     </>
   );
 }
