@@ -1,6 +1,7 @@
 import p2 from "../assets/videos/husman-hagberg.mp4";
 import p1 from "../assets/videos/jacks-burger.mp4";
 import p3 from "../assets/videos/qc.mp4";
+import Footer from "../components/Footer";
 import Header from "../components/Header";
 import "./projects-page.css";
 
@@ -10,9 +11,11 @@ export default function ProjectsPage() {
       <Header />
       <main>
         <div className="projects-content">
-          <section className="p1-section">
-            <div className="video-text">
+          <section className="p1-section slide-up">
+            <div className="video-header">
               <h2>Jack's Burger</h2>
+            </div>
+            <div className="video-text">
               <p>
                 A project for Jack's Burger, a popular burger chain. We follow
                 Peter Kisfaludy as he creates his signature burger, showcasing
@@ -29,10 +32,9 @@ export default function ProjectsPage() {
             <video className="project-video" src={p1} controls></video>
           </section>
 
-          <section className="p2-section">
+          <section className="p2-section slide-up">
             <video className="project-video" src={p2} controls></video>
             <div className="video-text">
-              <h2>Husman & Hagberg</h2>
               <p>
                 A project for Husman & Hagberg, a leading real estate agency. We
                 follow Gabriel Mirza as he explains why you should choose Husman
@@ -47,11 +49,16 @@ export default function ProjectsPage() {
                 WATCH ON INSTAGRAM
               </a>
             </div>
+            <div className="video-header">
+              <h2>Husman Hagberg</h2>
+            </div>
           </section>
 
-          <section className="p3-section">
-            <div className="video-text">
+          <section className="p3-section slide-up">
+            <div className="video-header">
               <h2>Quality Consulting</h2>
+            </div>
+            <div className="video-text">
               <p>
                 A project for Quality Consulting, a company that believes great
                 consulting starts with a great workplace. We celebrate their
@@ -70,6 +77,7 @@ export default function ProjectsPage() {
           </section>
         </div>
       </main>
+      <Footer />
     </>
   );
 }
