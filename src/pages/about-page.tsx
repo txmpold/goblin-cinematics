@@ -7,8 +7,8 @@ export default function AboutPage() {
     <>
       <Header />
       <main>
-        <section className="about-section">
-          <div className="about-text-div">
+        <section className="about-section ">
+          <div className="about-text-div slide-up">
             <h1>About Us</h1>
             <p>
               Passionate team of 2 based in Stockholm, Sweden, crafting
@@ -17,7 +17,7 @@ export default function AboutPage() {
               post-production expertise.
             </p>
           </div>
-          <div className="about-img-div">
+          <div className="about-img-div slide-up">
             <img src={aboutImg} alt="About Us" />
           </div>
         </section>
