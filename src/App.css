@@ -27,7 +27,7 @@
 
 body {
   margin: 0;
+  padding: 0 2rem;
   font-family: "Instrument Serif", Helvetica, sans-serif;
-  padding: 0rem 2rem;
   background: var(--background-color);
 }

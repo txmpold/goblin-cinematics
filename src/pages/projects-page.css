@@ -34,8 +34,9 @@
 .p3-section {
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: space-between;
   gap: 10rem;
+  width: calc(100% - 4rem);
   align-items: center;
   margin-bottom: 2rem;
   padding: 2rem;
@@ -62,15 +63,6 @@
   max-width: 30rem;
   font-size: 20px;
 }
-
-/* .p1-section .video-text,
-.p3-section .video-text {
-  padding-left: 4rem;
-}
-
-.p2-section .video-text {
-  padding-right: 4rem;
-} */
 
 .video-text p {
   margin: 0rem 0rem 2rem 0rem;

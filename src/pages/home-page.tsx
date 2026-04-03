@@ -21,7 +21,9 @@ export default function HomePage() {
           ></video>
           <div className="home-content slide-up">
             <h1 className="slogan">
-              A little mischief. <br /> A lot of <br />
+              A little <br />
+              mischief. <br />
+              A lot of <br />
               impact.
             </h1>
             <Link to="/projects">
