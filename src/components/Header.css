@@ -16,7 +16,7 @@ header img {
   overflow: hidden;
   background-color: transparent;
   border: none;
-  color: black;
+  color: var(--header-items);
   font-size: 1rem;
   cursor: pointer;
 }
@@ -36,4 +36,10 @@ header img {
 
 .header-button:hover::after {
   transform: translateX(-50%) scaleX(1);
+}
+
+.darkmode-toggle {
+  position: absolute;
+  top: 1.4rem;
+  right: 0;
 }

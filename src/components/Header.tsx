@@ -1,5 +1,6 @@
 import { Link } from "react-router";
 import logo from "../assets/images/logo.png";
+import Darkmode from "./Darkmode";
 import "./Header.css";
 import HeaderButton from "./HeaderButton";
 
@@ -13,7 +14,7 @@ export default function Header() {
         <HeaderButton title="PROJECTS" />
       </Link>
       <Link to="/">
-        <img src={logo} alt="Goblin Cinematics Logo" />
+        <img className="logo" src={logo} alt="Goblin Cinematics Logo" />
       </Link>
       <Link to="/contact">
         <HeaderButton title="CONTACT" />
@@ -21,6 +22,7 @@ export default function Header() {
       <Link to="/about">
         <HeaderButton title="ABOUT" />
       </Link>
+      <Darkmode />
     </header>
   );
 }

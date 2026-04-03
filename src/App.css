@@ -1,16 +1,33 @@
 :root {
-  --background-color: #e7e7dd;
   --text-color: #eadab1;
-  --secondary-color: #2a382b;
+  --custom-green: #2a382b;
+}
+
+:root[data-theme="light"] {
   --custom-orange: #d7573c;
   --custom-blue: #787ea1;
   --custom-red: #8f4d55;
+  --header-items: #262624;
+  --background-color: #e7e6dd;
+  --toggle-button: #262624;
+}
+
+:root[data-theme="dark"] {
+  --custom-orange: #b84430;
+  --custom-blue: #6b7190;
+  --custom-red: #784449;
+  --background-color: #262624;
+  --header-items: #e7e6dd;
+  --toggle-button: #e7e6dd;
+}
+
+:root[data-theme="dark"] img.logo {
+  filter: invert(1);
 }
 
 body {
   margin: 0;
   font-family: "Instrument Serif", Helvetica, sans-serif;
   padding: 0rem 2rem;
-  color: black;
   background: var(--background-color);
 }
