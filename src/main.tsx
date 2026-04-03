@@ -4,6 +4,8 @@ import App from "./app";
 
 createRoot(document.getElementById("root")!).render(
   <StrictMode>
-    <App />
+    <div className="slide-up">
+      <App />
+    </div>
   </StrictMode>,
 );
