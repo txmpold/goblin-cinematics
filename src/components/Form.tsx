@@ -1,6 +1,7 @@
 import { zodResolver } from "@hookform/resolvers/zod";
 import { useEffect } from "react";
 import { useForm } from "react-hook-form";
+import { z } from "zod";
 import { FormSchema } from "../data/form";
 import "./Form.css";
 
@@ -18,7 +19,7 @@ export default function Form() {
     }
   }, [formState.isSubmitSuccessful, reset]);
 
-  const onSubmit = (data) => {
+  const onSubmit = (data: z.infer<typeof FormSchema>) => {
     console.log(data);
   };
 
