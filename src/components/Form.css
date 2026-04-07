@@ -16,7 +16,7 @@ form {
   color: var(--text-color);
   font-size: 20px;
   margin: 0;
-  background: var(--custom-red);
+  background: transparent;
   padding: 0.1rem;
   border-radius: 5px;
 }
