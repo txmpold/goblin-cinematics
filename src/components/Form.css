@@ -21,6 +21,10 @@ form {
   border-radius: 5px;
 }
 
+.success-message {
+  background-color: var(--custom-red);
+}
+
 .name-error {
   left: 0;
   top: 3.2rem;
